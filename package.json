@@ -1,6 +1,6 @@
 {
   "name": "betfair-25",
-  "version": "0.7.9",
+  "version": "0.7.10",
   "description": "Betfair JSON API",
   "main": "index.js",
   "private": false,
@@ -9,8 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-src": "babel --presets es2015 src/lib --out-dir ./lib",
-    "build-test": "babel --presets es2015 src/test --out-dir ./test",
+    "build-src": "npx babel --presets es2015 src/lib --out-dir ./lib",
+    "build-test": "npx babel --presets es2015 src/test --out-dir ./test",
     "build": "npm run build-src && npm run build-test",
     "prepublish": "npm run build"
   },
