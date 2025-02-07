@@ -1,6 +1,6 @@
 {
-  "name": "betfair",
-  "version": "0.7.8",
+  "name": "betfair-25",
+  "version": "0.7.9",
   "description": "Betfair JSON API",
   "main": "index.js",
   "private": false,
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/AlgoTrader/betfair.git"
+    "url": "git://github.com/asuthy/betfair-25.git"
   },
   "keywords": [
     "betfair",
@@ -25,7 +25,7 @@
     "new",
     "api"
   ],
-  "author": "AlgoTrader",
+  "author": "asuthy",
   "license": "BSD",
   "dependencies": {
     "async": "*",
